@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    justify-content: center;
+    background-color: aliceblue;
+    height: 550px ;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.container{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    width: 455px;
+    background-color: rgb(202, 209, 216);
+}
+.sub{
+    background-color: rgb(182, 192, 201);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.subbox{
+    border-top: 1px solid #ddd;
+    margin-top: 20px ;
+    justify-content: center;
+    padding: 20px;
+}
+form{
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 30px;
+}
+input{
+    padding: 5px;
+    width:auto;
+}
+button{
+    margin-top: 30px;
+    width:150px
+}
+button:hover{
+    background-color: aquamarine;
+}
+.bt{
+    background-color: green;
+    font-size: larger;
+    padding: 5px;
+}
